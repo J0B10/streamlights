@@ -1,0 +1,4 @@
+// GENERATED FILE USING THE CHAT OVERFLOW PLUGIN FRAMEWORK
+
+name := "streamlights"
+version := "0.1"
