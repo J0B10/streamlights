@@ -1,0 +1,11 @@
+<plugin>
+    <name>streamlights</name>
+    <author>joblo2213</author>
+    <description>Light control through twitch chat</description>
+    <api>
+        <major>3</major>
+        <minor>0</minor>
+    </api>
+    <version>0.1</version>
+    <sourceRepo>https://github.com/joblo2213/streamlights</sourceRepo>
+</plugin>
