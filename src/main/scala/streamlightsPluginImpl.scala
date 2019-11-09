@@ -9,9 +9,9 @@ import scala.collection.mutable.ListBuffer
 class streamlightsPluginImpl(manager: PluginManager) extends PluginImpl(manager) {
 
   private val twitchChat = require.input.twitchChat("twitchChat", "Twitch chat input", false)
-  private val channel = require.parameter.string("channel", "Twitch Channel that should control your light", false)
+  private val channel = require.parameter.stringParameter("channel", "Twitch Channel that should control your light", false)
   private val arduino = require.output.serial("arduino", "An Arduino connected through serial port", false)
-  private val brightness = require.parameter.string("brightness", "Brightness of the Arduino", true)
+  private val brightness = require.parameter.stringParameter("brightness", "Brightness of the Arduino", true)
 
   loopInterval = 10
   private val pulses = ListBuffer[Pulse]()
